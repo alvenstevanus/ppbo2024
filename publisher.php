@@ -4,6 +4,11 @@ class Publisher {
     public $address;
     public $phone;
 
+    public function __construct($name, $address, $phone) {
+        $this->name = $name;
+        $this->address = $address;
+        $this->phone = $phone;
+    }
 
     public function setPhone(int $phone): void {
         $this->phone = (string) $phone;

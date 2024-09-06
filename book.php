@@ -9,6 +9,17 @@ class Book {
     public $author;
     public $publisher;
 
+    public function __construct($isbn, $title, $description, $category, $language, $numberOfPage, $author, $publisher) {
+        $this->isbn = $isbn;
+        $this->title = $title;
+        $this->description = $description;
+        $this->category = $category;
+        $this->language = $language;
+        $this->numberOfPage = $numberOfPage;
+        $this->author = $author;
+        $this->publisher = $publisher;
+    }
+
     public function showAll(): array {
         return [
             'isbn' => $this->isbn,
@@ -29,3 +40,4 @@ class Book {
         return [];
     }
 }
+
