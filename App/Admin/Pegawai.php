@@ -33,8 +33,6 @@ class Pegawai {
     }
 }
 
-namespace App\Admin;
-
 class Dosen extends Pegawai {
     public string $nidn;
 
@@ -47,8 +45,6 @@ class Dosen extends Pegawai {
         echo $this->nama . " sedang mengajar perkuliahan";
     }
 }
-
-namespace App\Admin;
 
 class TenagaKependidikan extends Pegawai {
     public int $gaji_pokok;
