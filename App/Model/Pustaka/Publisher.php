@@ -1,4 +1,5 @@
 <?php
+namespace App\Admin\Model\Pustaka;
 class Publisher {
     public $name;
     public $address;

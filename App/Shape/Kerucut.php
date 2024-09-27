@@ -1,4 +1,5 @@
 <?php
+namespace App\Shape;
 class Kerucut
 {
     const PHI = 3.14;

@@ -1,4 +1,5 @@
 <?php
+namespace App\Admin\Model\Pustaka;
 class Author{
     public $name;
     public $description;

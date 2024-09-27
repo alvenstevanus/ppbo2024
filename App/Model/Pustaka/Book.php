@@ -1,4 +1,5 @@
 <?php
+namespace App\Admin\Model\Pustaka;
 class Book {
     public $isbn;
     public $title;
