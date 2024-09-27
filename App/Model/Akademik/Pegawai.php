@@ -24,7 +24,7 @@ class Pegawai {
         return true;
     }
 
-    protected function getNoHp() {
+    public function getNoHp() {
         return $this->no_hp;
     }
 
